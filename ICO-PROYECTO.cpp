@@ -12,4 +12,13 @@ int main()
 		dia = 15;
 		printf("La fecha del dia siguiente es:%2d %2d %4d", dia, mes, anio);
 	}
+	else if (!((anio % 4 == 0 && anio % 100 != 0) || anio % 400 == 0) && mes == 2)
+	{
+		if (dia == 29 && mes == 2)
+		{
+			dia = 1;
+			mes++;
+			printf("La fecha del dia siguiente es:%2d %2d %4d", dia, mes, anio);
+		}
+	}
 }

@@ -52,9 +52,19 @@ int main()
 			{
 				mes = 01;
 				anio++;
+				printf("La fecha del dia siguiente es:%2d %2d %4d", dia, mes, anio);
+			}
+			else {
+				printf("La fecha del dia siguiente es:%2d %2d %4d", dia, mes, anio);
 			}
 		}
 	}
-	printf("La fecha del dia siguiente es:%2d %2d %4d", dia, mes, anio);
-
+	else if (mes == 4 || mes == 6 || mes == 9 || mes == 11)
+	{
+		if (dia == 31)
+		{
+			dia = 1;
+			mes++;
+		}
+	}
 }

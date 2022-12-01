@@ -55,4 +55,6 @@ int main()
 			}
 		}
 	}
+	printf("La fecha del dia siguiente es:%2d %2d %4d", dia, mes, anio);
+
 }

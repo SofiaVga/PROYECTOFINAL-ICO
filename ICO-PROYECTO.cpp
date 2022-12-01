@@ -52,10 +52,6 @@ int main()
 			{
 				mes = 01;
 				anio++;
-				printf("La fecha del dia siguiente es:%2d %2d %4d", dia, mes, anio);
-			}
-			else {
-				printf("La fecha del dia siguiente es:%2d %2d %4d", dia, mes, anio);
 			}
 		}
 	}
